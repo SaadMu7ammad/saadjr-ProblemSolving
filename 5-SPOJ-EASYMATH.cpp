@@ -46,6 +46,7 @@ ll count_divisibility(ll L, ll R, ll n) {
 int main()
 { 
   //first of all i would say that this is NOT AN EASY MATH at all :)
+// thanks to the creator of this tutorial >> https://www.youtube.com/watch?v=2TijUJXvyGw&ab_channel=TechTalk
     sonic;
    // cerr << "Time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl; cerr << "Time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
 
