@@ -94,6 +94,8 @@ bool isprime(ll num) {
 void divisors(ll a) {
     vector<ll>arr;
     ll tot = 0;
+    //main WA's that most programmers forgot the constraint that could reach 10^12  so if u make the loop int will be 10^6*10^6 ^12 cant contained in integer 
+    //so it will cause time limit in the judge 
     for (ll i = 1; i*i <= a; i++) {
         if (a % i == 0) {
             tot += i;
@@ -111,6 +113,7 @@ int main()
     sonic;
     ll a;
     cin >> a;
+    
    divisors(a);
     //cerr << "Time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
 }
