@@ -114,6 +114,7 @@ ll sumMultiples(ll n,ll num) {//calc the sum of multiples of num from num to n (
 //cerr << "Time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
 int main()
 {sonic;
+//https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/I
     ll start, end, x; cin >> start >> end >> x;
     if (start > end)swap(start, end);
     cout << (sumMultiples(end, x)) - (sumMultiples((start - 1), x));
