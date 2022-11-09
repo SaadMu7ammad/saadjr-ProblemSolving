@@ -121,7 +121,6 @@ ll digits(ll n) {
 }
 //cerr << "Time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
 int main()
-//https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/P
 {sonic;
 ll n; cin >> n;
 ll res = 1;
@@ -137,6 +136,9 @@ string num = to_string(res);
 
 cout << "Number of digits of " << n << "! is " << digitsnum + num.length();
 //Math way 
+// //n*(n-1)*(n-2)...(1)=n! log10 for both sides
+// log10(n*(n-1)*(n-2)...(1))=log10(n!)
+// but n! cant be done coz overflow issues so will go to the log from 1 to n
 //cout<< "Number of digits of "<<n<<"! is "<<digits(n);
 
 }
