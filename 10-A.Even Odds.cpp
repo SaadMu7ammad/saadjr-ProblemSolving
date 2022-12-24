@@ -116,7 +116,7 @@ ll sumMultiples(ll n, ll num) {//calc the sum of multiples of num from num to n 
 
 
 int main()
-{
+{//https://codeforces.com/contest/318/problem/A
     sonic;
 
     ll n; cin >> n;
